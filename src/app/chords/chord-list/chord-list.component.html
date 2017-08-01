@@ -1,0 +1,14 @@
+<div class="chord-list">
+  <div class="pure-g" *ngFor="let chord of chords" routerLink="{{chord.id}}">
+    <div class="pure-u">
+      <div class="list-item">
+        <div class="name">{{ chord.title }}</div>
+        <div class="artist">{{ chord.artist }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

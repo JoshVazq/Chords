@@ -1,0 +1,13 @@
+<div *ngIf="chord" class="chord">
+  <div class="header">
+    <a class="back" routerLink="/chords"> 
+      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+    </a>
+    <div class="name">{{ chord.title }}</div>
+    <div class="artist">{{ chord.artist }}</div>
+  </div>
+  <div class="data">
+    <pre>{{ chord.data }}</pre>
+  </div>
+
+</div>
